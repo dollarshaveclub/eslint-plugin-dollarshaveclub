@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-eslint-config-dollarshaveclub",
+  "version": "1.0.0",
+  "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
+  "keywords": [
+    "ember",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Arjan Singh <arjan.singh@dollarshaveclub.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
