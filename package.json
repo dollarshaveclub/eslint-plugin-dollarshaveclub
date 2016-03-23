@@ -11,13 +11,15 @@
   "author": "Arjan Singh <arjan.singh@dollarshaveclub.com>",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha tests/**/*.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
