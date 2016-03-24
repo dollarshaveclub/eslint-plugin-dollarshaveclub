@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-eslint-config-dollarshaveclub",
+  "name": "eslint-plugin-dollarshaveclub",
   "version": "1.0.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
   "keywords": [
@@ -9,7 +9,7 @@
     "eslint-plugin"
   ],
   "author": "Arjan Singh <arjan.singh@dollarshaveclub.com>",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests/**/*.js"
