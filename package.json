@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-dollarshaveclub",
+  "name": "@dollarshaveclub/eslint-plugin-dollarshaveclub",
   "version": "1.0.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
   "keywords": [
@@ -8,6 +8,11 @@
     "eslintplugin",
     "eslint-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dollarshaveclub/eslint-plugin-dollarshaveclub.git"
+  },
+  "homepage": "https://github.com/dollarshaveclub/eslint-plugin-dollarshaveclub",
   "author": "Arjan Singh <arjan.singh@dollarshaveclub.com>",
   "main": "index.js",
   "scripts": {
