@@ -1,5 +1,5 @@
 {
-  "name": "@dollarshaveclub/eslint-plugin-dollarshaveclub",
+  "name": "eslint-plugin-dollarshaveclub",
   "version": "1.0.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
   "keywords": [
