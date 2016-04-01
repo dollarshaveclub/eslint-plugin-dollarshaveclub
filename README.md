@@ -13,10 +13,10 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-eslint-dollarshaveclub`:
 
 ```
-$ npm install eslint-plugin-eslint-dollarshaveclub --save-dev
+$ npm install eslint-plugin-dollarshaveclub --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-eslint-dollarshaveclub` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-dollarshaveclub` globally.
 
 ## Usage
 
