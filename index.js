@@ -11,6 +11,7 @@
 module.exports = {
   rules: {
     'spread-mixins': require('./lib/rules/spread-mixins'),
+    'no-underscore-dangle': [2, { allow: ['_super'] }],
   },
   configs: {
     parserOptions: {
