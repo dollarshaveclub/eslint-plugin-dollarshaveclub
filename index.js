@@ -11,7 +11,6 @@
 module.exports = {
   rules: {
     'spread-mixins': require('./lib/rules/spread-mixins'),
-    'no-underscore-dangle': [2, { allow: ['_super'] }],
   },
   configs: {
     parserOptions: {
@@ -24,6 +23,7 @@ module.exports = {
     ember: {
       rules: {
         'dollarshaveclub/spread-mixins': 2,
+        'no-underscore-dangle': [2, { allow: ['_super'] }],
       },
     },
   },

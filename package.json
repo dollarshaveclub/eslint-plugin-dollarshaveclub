@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dollarshaveclub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
   "keywords": [
     "ember",
