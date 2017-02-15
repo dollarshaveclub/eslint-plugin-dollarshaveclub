@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-dollarshaveclub",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
   "keywords": [
     "ember",
@@ -23,11 +23,14 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.1.0"
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.9.0"
   },
   "license": "MIT"
 }
