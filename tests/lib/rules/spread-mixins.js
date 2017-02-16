@@ -4,7 +4,7 @@
  * @copyright 2016 Arjan Singh <arjan.singh@dollarshaveclub.com>. All rights reserved.
  * See LICENSE file in root directory for full license.
  */
-'use strict';
+/* eslint-disable import/no-extraneous-dependencies */
 
 //------------------------------------------------------------------------------
 // Requirements
