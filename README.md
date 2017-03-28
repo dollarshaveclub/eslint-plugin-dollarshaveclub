@@ -1,5 +1,7 @@
 # eslint-plugin-dollarshaveclub
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/eslint-plugin-dollarshaveclub.svg)](https://greenkeeper.io/)
+
 Dollar Shave Club's official custom JavaScript rules. Linting code to shave the world!
 
 ## Installation
