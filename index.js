@@ -24,6 +24,7 @@ module.exports = {
       rules: {
         'dollarshaveclub/spread-mixins': 2,
         'no-underscore-dangle': [2, { allow: ['_super'] }],
+        'consistent-return': 0,
       },
     },
   },
