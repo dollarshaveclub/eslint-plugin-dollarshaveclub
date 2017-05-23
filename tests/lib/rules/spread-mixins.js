@@ -4,7 +4,6 @@
  * @copyright 2016 Arjan Singh <arjan.singh@dollarshaveclub.com>. All rights reserved.
  * See LICENSE file in root directory for full license.
  */
-'use strict';
 
 //------------------------------------------------------------------------------
 // Requirements
@@ -12,7 +11,6 @@
 
 const rule = require('../../../lib/rules/spread-mixins');
 const RuleTester = require('eslint').RuleTester;
-
 
 //------------------------------------------------------------------------------
 // Tests
