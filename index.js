@@ -11,6 +11,7 @@
 module.exports = {
   extends: [
     'standard',
+    'standard-babel',
   ],
   rules: {
     'import/no-extraneous-dependencies': 0,
