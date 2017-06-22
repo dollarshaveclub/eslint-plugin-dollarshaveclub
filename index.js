@@ -9,33 +9,32 @@
 'use strict'
 
 module.exports = {
+  extends: [
+    'standard',
+  ],
   rules: {
-    'spread-mixins': require('./lib/rules/spread-mixins'),
-    // because Ember's module system sucks
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
     'import/extensions': 0,
-
-    // stupid rules
     'no-plusplus': 0,
-
-    // TODO: fix and remove
-    'no-restricted-syntax': 0
+    'no-restricted-syntax': 0,
+    'comma-dangle': [2, 'always-multiline'],
   },
   configs: {
     parserOptions: {
-      ecmaVersion: 6,
+      ecmaVersion: 7,
       sourceType: 'module',
       ecmaFeatures: {
-        experimentalObjectRestSpread: true
-      }
+        experimentalObjectRestSpread: true,
+        modules: true,
+      },
     },
     ember: {
       rules: {
         'dollarshaveclub/spread-mixins': 2,
         'no-underscore-dangle': [2, { allow: ['_super'] }],
-        'consistent-return': 0
-      }
-    }
-  }
+        'consistent-return': 0,
+      },
+    },
+  },
 }
