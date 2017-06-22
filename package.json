@@ -17,6 +17,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "test": "eslint .",
   },
   "dependencies": {
     "requireindex": "~1.1.0"
