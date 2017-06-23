@@ -1,13 +1,7 @@
 {
   "name": "eslint-plugin-dollarshaveclub",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
-  "keywords": [
-    "ember",
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dollarshaveclub/eslint-plugin-dollarshaveclub.git"
@@ -19,7 +13,7 @@
     "lint": "eslint .",
     "test": "eslint ."
   },
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
