@@ -1,4 +1,4 @@
-# eslint-plugin-dollarshaveclub
+# eslint-plugin-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/eslint-plugin-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/eslint-plugin-dollarshaveclub)
 
 Dollar Shave Club's official custom JavaScript rules. Linting code to shave the world!
 
