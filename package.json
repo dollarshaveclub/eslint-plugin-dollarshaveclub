@@ -1,34 +1,23 @@
 {
   "name": "eslint-plugin-dollarshaveclub",
-  "version": "1.0.3",
+  "version": "3.0.0",
   "description": "Dollar Shave Club's official JavaScript Style Rules. Linting code to shave the world!",
-  "keywords": [
-    "ember",
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dollarshaveclub/eslint-plugin-dollarshaveclub.git"
   },
   "homepage": "https://github.com/dollarshaveclub/eslint-plugin-dollarshaveclub",
-  "author": "Arjan Singh <arjan.singh@dollarshaveclub.com>",
+  "author": "Arjañ Siñgh <arjan.singh@dollarshaveclub.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha tests/**/*.js"
+    "test": "eslint ."
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "mocha": "^3.4.1"
+    "eslint": "^3.19.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "7"
   },
   "license": "MIT"
 }
